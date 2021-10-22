@@ -1,0 +1,30 @@
+{
+  "name": "backend-Be-the-Hero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "migrations": "npx knex migrate:rollback --all && npx knex migrate:latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWracker/backend-Be-the-Hero.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeWracker/backend-Be-the-Hero/issues"
+  },
+  "homepage": "https://github.com/CodeWracker/backend-Be-the-Hero#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
