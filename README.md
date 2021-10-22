@@ -14,3 +14,7 @@ Backend and Frontend of the Be The Hero Project of the Omnistack Week
 ## On web (Development Mode)
 
 It is basically the same of the localhost, but I recommend you to deploy one gitpod environment for each project and change the api URL on api.js file located at `frontend/src/services/api.js` to the public url to the port 3333 of the gitpod env of the backend
+
+## How to use Gitpod
+
+Just type gitpod.io#{url_to_the_repo}
