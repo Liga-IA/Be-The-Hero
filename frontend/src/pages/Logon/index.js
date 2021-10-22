@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FiLogIn } from "react-icons/fi";
 import { Link, useHistory } from "react-router-dom";
-import chatBot from '../rasa-webchat'
 
 import "./styles.css";
 import api from "../../services/api";
@@ -55,7 +54,7 @@ export default function Logon() {
         </form>
       </section>
       <img src={heroesImg}></img>
-      <chatBot />
+
     </div>
   );
 }
