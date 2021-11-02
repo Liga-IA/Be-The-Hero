@@ -17,4 +17,4 @@ It is basically the same of the localhost, but I recommend you to deploy one git
 
 ## How to use Gitpod
 
-Just type gitpod.io#{url_to_the_repo}
+Enter this link: https://www.gitpodio#https://github.com/Liga-IA/Be-The-Hero/edit/main/README.md
