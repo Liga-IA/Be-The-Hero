@@ -17,4 +17,4 @@ It is basically the same of the localhost, but I recommend you to deploy one git
 
 ## How to use Gitpod
 
-Enter this link: https://www.gitpodio#https://github.com/Liga-IA/Be-The-Hero
+Enter this link: https://www.gitpod.io#https://github.com/Liga-IA/Be-The-Hero
