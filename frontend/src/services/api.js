@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:3333"
+  baseURL: "https://3333-tan-goose-kjycxojb.ws-us17.gitpod.io"
 });
 
 export default api;

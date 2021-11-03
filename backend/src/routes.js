@@ -11,6 +11,7 @@ routes.post("/sessions", SessionController.create);
 
 routes.get("/ongs", OngController.index);
 routes.post("/ongs", OngController.create);
+routes.get("/ongs/:id", OngController.indexIncidentByOngId);
 
 routes.post("/incidents", IncidentController.create);
 routes.get("/incidents", IncidentController.index);

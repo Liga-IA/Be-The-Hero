@@ -1,0 +1,8 @@
+tasks:
+  - init: cd backend ; npm i ; npm run migrations ; npm start
+  - command: cd frontend ; npm i ; npm start
+ports:
+  - port: 3000
+    visibility: public
+  - port: 3333
+    visibility: public
